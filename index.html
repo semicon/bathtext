@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Example of Bahttext</title>
 </head>
 
 <body>
   Example of Bahttext
-  <div>5,678.00 บาท (<span id="txtbaht"></span>)</div>
+  <div>5,678.50 บาท (<span id="txtbaht"></span>)</div>
   <script src="https://cdn.jsdelivr.net/gh/semicon/thaibahttext/bahttxt.min.js"></script>
   <script>
-    const txtbaht = bahttext(5678.00)
+    const txtbaht = bahttext(5678.50)
     document.getElementById('txtbaht').innerText = txtbaht
     console.log(bahttext(8.00))
     console.log(bahttext(5678.00))
