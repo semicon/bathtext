@@ -9,9 +9,11 @@
 
 <body>
   Example of Bahttext
-
+  <div>5,678.00 บาท (<span id="txtbaht"></span>)</div>
   <script src="https://cdn.jsdelivr.net/gh/semicon/thaibahttext/bahttxt.min.js"></script>
   <script>
+    const txtbaht = bahttext(5678.00)
+    document.getElementById('txtbaht').innerText = txtbaht
     console.log(bahttext(8.00))
     console.log(bahttext(5678.00))
     console.log(bahttext(63147.89))
