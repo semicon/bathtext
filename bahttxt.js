@@ -1,3 +1,4 @@
+//https://github.com/jojoee/bahttext
 const bahtxtConst = {
   defaultResult: 'ศูนย์บาทถ้วน',
   singleUnitStrs: ['', 'หนึ่ง', 'สอง', 'สาม', 'สี่', 'ห้า', 'หก', 'เจ็ด', 'แปด', 'เก้า'],
